@@ -9,10 +9,6 @@ body {
   padding: 10 0 15px 15px;
 }
 
-  .restaurant-list {
-    border: 1px solid #333;
-  }
-
 h1 {
   color: inherit;
   font-size: 120%; /* base is 10px */
@@ -41,8 +37,14 @@ nav {
 }
 
 .restaurant-list {
-  padding-top: 30%;
-  width: 100%
+  padding-top: 10%;
+  width: 100%;
+  border: 1px solid #888;
+}
+
+.location {
+  background-color: #fff;
+  border-bottom: 1px solid #333;
 }
 
 .location :hover {
@@ -51,6 +53,9 @@ nav {
 
 .content {
  display: inline-block;
+ width: 90%;
+ padding: 15px 0 15px 15px;
+ margin-bottom: 3px;
 }
 
 .arrow-left {
@@ -59,5 +64,4 @@ nav {
 
 .arrow {
   display: inline-block;
-  padding: 0 0 15px 400px
 }
