@@ -47,7 +47,7 @@ nav {
   border-bottom: 1px solid #333;
 }
 
-.location :hover {
+.location:hover {
   background-color: #888;
 }
 
